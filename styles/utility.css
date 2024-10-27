@@ -39,6 +39,10 @@
   color: var(--red);
 }
 
+.purple {
+  color: var(--purple);
+}
+
 .gap20 {
   width: 680px;
   height: 20px;
@@ -46,6 +50,11 @@
 
 .gap8 {
   width: 680px;
+  height: 8px;
+}
+
+.gap {
+  width: 420px;
   height: 8px;
 }
 
@@ -89,4 +98,27 @@
     width: 48px;
     height: 48px;
   }
+}
+
+.social-button {
+  width: 400px;
+  height: 68px;
+  background: #292C34;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.social-button img:first-of-type {
+  margin-left: 20px;
+  margin-right: 12px;
+}
+
+.social-button img:last-of-type {
+  margin-right: 20px;
+  margin-left: 12px;
+}
+
+.social-button p {
+  flex-grow: 1;
 }
